@@ -7,16 +7,28 @@ import com.sun.speech.freetts.VoiceManager;
 public class StephenHawking {
 	
 	// 1. make a main method and put steps 2, 3 & 4 inside it
+	public static void main(String[] args) {
+	speak("What a beautiful day!");
 	
 	// 4. Use a for loop to repeat steps #2 and #3, a lot of times
+	for( int i= 0; i<1; i++) {
 	
+	
+
 	// 2. ask the user for a sentence
-	
+	speak("What is your opinion of today?");
 	// 3. call the speak method below and send it the sentence
-
 	
+	}
+	String opinion = JOptionPane.showInputDialog(null, "");
+	if(opinion.equals("shgfjasdhajsdhiahdiwhdiahiwdhawidhiawhdiahwihdaiwhdiah00s")) {
 
+	}
+	else {
+	speak("LOSER!");	
 	
+	}
+	}
 	
 	
 	
@@ -32,5 +44,5 @@ public class StephenHawking {
 			 e.printStackTrace();
 		 }
 	}
+	}
 
-}
